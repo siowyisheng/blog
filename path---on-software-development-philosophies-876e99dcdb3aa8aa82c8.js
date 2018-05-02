@@ -1,2 +1,2 @@
-webpackJsonp([0xf4b6e9e7b7a3],{365:function(e,t){e.exports={data:{markdownRemark:{html:"",frontmatter:{title:"On software development philosophies"}}},pathContext:{slug:"/on-software-development-philosophies/"}}}});
+webpackJsonp([0xf4b6e9e7b7a3],{367:function(e,t){e.exports={data:{markdownRemark:{html:"",frontmatter:{title:"On software development philosophies"}}},pathContext:{slug:"/on-software-development-philosophies/"}}}});
 //# sourceMappingURL=path---on-software-development-philosophies-876e99dcdb3aa8aa82c8.js.map
