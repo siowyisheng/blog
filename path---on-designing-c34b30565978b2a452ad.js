@@ -1,2 +1,2 @@
-webpackJsonp([0xeab58b01d668],{365:function(e,n){e.exports={data:{markdownRemark:{html:"<p>Emulate before innovate.</p>\n<p>Be willing to kill your babies.</p>\n<p>Create quickly. Destroy mercilessly.</p>",frontmatter:{title:"On designing"}}},pathContext:{slug:"/on-designing/"}}}});
+webpackJsonp([0xeab58b01d668],{366:function(e,n){e.exports={data:{markdownRemark:{html:"<p>Emulate before innovate.</p>\n<p>Be willing to kill your babies.</p>\n<p>Create quickly. Destroy mercilessly.</p>",frontmatter:{title:"On designing"}}},pathContext:{slug:"/on-designing/"}}}});
 //# sourceMappingURL=path---on-designing-c34b30565978b2a452ad.js.map
