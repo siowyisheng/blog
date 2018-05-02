@@ -6,6 +6,7 @@ import { css } from 'glamor'
 // import Header from '../components/header'
 // import './index.css'
 import Link from 'gatsby-link'
+import icon32 from '../static/logo/favicon-32x32.png'
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -20,6 +21,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+      ]}
+      link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
       ]}
     />
     {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
