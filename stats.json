@@ -12,6 +12,10 @@
       "component---src-pages-index-js-ec1659ae4eba88d5c06f.js",
       "component---src-pages-index-js-ec1659ae4eba88d5c06f.js.map"
     ],
+    "path---on-free-will": [
+      "path---on-free-will-4a81e44283928932b0fb.js",
+      "path---on-free-will-4a81e44283928932b0fb.js.map"
+    ],
     "path---": [
       "path----41c3238021af7c2e6714.js",
       "path----41c3238021af7c2e6714.js.map"
@@ -29,12 +33,16 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-f0010902df0129fa55b2.js",
-      "path---index-f0010902df0129fa55b2.js.map"
+      "path---index-a48bc65cb2a1da9a613e.js",
+      "path---index-a48bc65cb2a1da9a613e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js",
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js.map"
+    ],
+    "path---on-designing-games": [
+      "path---on-designing-games-4b8e544eb1a096107fda.js",
+      "path---on-designing-games-4b8e544eb1a096107fda.js.map"
     ],
     "commons": [
       "commons-c759395d8a4899faf200.js",
@@ -49,12 +57,16 @@
       "component---src-pages-page-2-js-f2ad9f0431c486d4e2c2.js.map"
     ],
     "app": [
-      "app-66605b98f7f8bd9f2502.js",
-      "app-66605b98f7f8bd9f2502.js.map"
+      "app-f34c2a3db085f4edbe62.js",
+      "app-f34c2a3db085f4edbe62.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---on-software-development-philosophies": [
+      "path---on-software-development-philosophies-876e99dcdb3aa8aa82c8.js",
+      "path---on-software-development-philosophies-876e99dcdb3aa8aa82c8.js.map"
     ]
   }
 }
