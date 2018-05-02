@@ -1,19 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import g from "glamorous";
-import { css } from "glamor";
+import g from 'glamorous'
+import { css } from 'glamor'
 // import Header from '../components/header'
 // import './index.css'
-import Link from "gatsby-link";
+import Link from 'gatsby-link'
 
-const ListLink = props => 
-<li style={{ display: `inline-block`,  marginRight: `1rem` }}>
-  <Link to={props.to}>
-    {props.children}
-  </Link>
-</li>
-
+const ListLink = props => (
+  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+    <Link to={props.to}>{props.children}</Link>
+  </li>
+)
 
 const Layout = ({ children, data }) => (
   <div>
