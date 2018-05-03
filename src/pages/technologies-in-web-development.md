@@ -1,6 +1,7 @@
 ---
 title: "Technologies in web development"
 date: "2018-05-02"
+published: False
 ---
 
 ## Functions of an app
@@ -25,6 +26,8 @@ allauth
 gunicorn - Python WSGI HTTP Server for UNIX
 webpack
 zinnia
+celery - asynchronous task queue or job queue which is based on distributed message passing
+s3direct
 
 amqp==1.4.9
 anyjson==0.3.3
