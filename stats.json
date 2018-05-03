@@ -1,16 +1,8 @@
 {
   "assetsByChunkName": {
-    "path---second-post": [
-      "path---second-post-e404e2247cbb0f2e76c4.js",
-      "path---second-post-e404e2247cbb0f2e76c4.js.map"
-    ],
-    "path---my-first-md-blog-post": [
-      "path---my-first-md-blog-post-ae885a44fb7112b103cb.js",
-      "path---my-first-md-blog-post-ae885a44fb7112b103cb.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b50db7c6e16c3a992fa1.js",
-      "component---src-pages-index-js-b50db7c6e16c3a992fa1.js.map"
+      "component---src-pages-index-js-65482821a35ba8c55796.js",
+      "component---src-pages-index-js-65482821a35ba8c55796.js.map"
     ],
     "path---on-free-will": [
       "path---on-free-will-3fbbccc413190519741b.js",
@@ -28,13 +20,9 @@
       "component---src-layouts-index-js-5f6443a01a30a7d36a53.js",
       "component---src-layouts-index-js-5f6443a01a30a7d36a53.js.map"
     ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---index": [
-      "path---index-4a9f7fc2385ead062c3e.js",
-      "path---index-4a9f7fc2385ead062c3e.js.map"
+      "path---index-c8e9c7730d9ec9fd1560.js",
+      "path---index-c8e9c7730d9ec9fd1560.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js",
@@ -52,21 +40,17 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-f2ad9f0431c486d4e2c2.js",
-      "component---src-pages-page-2-js-f2ad9f0431c486d4e2c2.js.map"
-    ],
     "app": [
-      "app-d3b5cc378ccac5e5f8a0.js",
-      "app-d3b5cc378ccac5e5f8a0.js.map"
+      "app-54ae3c0ffaffcbf672cd.js",
+      "app-54ae3c0ffaffcbf672cd.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---ux-best-practices": [
-      "path---ux-best-practices-262e6def9eb61d7674a2.js",
-      "path---ux-best-practices-262e6def9eb61d7674a2.js.map"
+      "path---ux-best-practices-0fe4b131bfc65fe23a99.js",
+      "path---ux-best-practices-0fe4b131bfc65fe23a99.js.map"
     ],
     "path---on-designing": [
       "path---on-designing-c34b30565978b2a452ad.js",

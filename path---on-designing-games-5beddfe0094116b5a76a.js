@@ -1,2 +1,2 @@
-webpackJsonp([0x99405847fd17],{365:function(e,a){e.exports={data:{markdownRemark:{html:"<p>To achieve elegance, add complexity by placing <em>restrictions</em> on\n<em>familiar game actions</em> rather than adding extra rules.</p>",frontmatter:{title:"On designing games"}}},pathContext:{slug:"/on-designing-games/"}}}});
+webpackJsonp([0x99405847fd17],{359:function(e,a){e.exports={data:{markdownRemark:{html:"<p>To achieve elegance, add complexity by placing <em>restrictions</em> on\n<em>familiar game actions</em> rather than adding extra rules.</p>",frontmatter:{title:"On designing games"}}},pathContext:{slug:"/on-designing-games/"}}}});
 //# sourceMappingURL=path---on-designing-games-5beddfe0094116b5a76a.js.map
