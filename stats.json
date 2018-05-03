@@ -16,10 +16,6 @@
       "path---on-free-will-3fbbccc413190519741b.js",
       "path---on-free-will-3fbbccc413190519741b.js.map"
     ],
-    "path---technologies-in-web-development": [
-      "path---technologies-in-web-development-b8d464d9f8405c1edd72.js",
-      "path---technologies-in-web-development-b8d464d9f8405c1edd72.js.map"
-    ],
     "path---": [
       "path----41c3238021af7c2e6714.js",
       "path----41c3238021af7c2e6714.js.map"
@@ -29,16 +25,16 @@
       "component---src-templates-blog-post-js-c2d346070e72a1c66bcc.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-bbcfdacd138614353f28.js",
-      "component---src-layouts-index-js-bbcfdacd138614353f28.js.map"
+      "component---src-layouts-index-js-5f6443a01a30a7d36a53.js",
+      "component---src-layouts-index-js-5f6443a01a30a7d36a53.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-c796936ac06cb43a1b55.js",
-      "path---index-c796936ac06cb43a1b55.js.map"
+      "path---index-4a9f7fc2385ead062c3e.js",
+      "path---index-4a9f7fc2385ead062c3e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js",
@@ -61,8 +57,8 @@
       "component---src-pages-page-2-js-f2ad9f0431c486d4e2c2.js.map"
     ],
     "app": [
-      "app-ac604626e0889fc84299.js",
-      "app-ac604626e0889fc84299.js.map"
+      "app-d3b5cc378ccac5e5f8a0.js",
+      "app-d3b5cc378ccac5e5f8a0.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
