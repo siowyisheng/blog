@@ -6,7 +6,6 @@ import { css } from 'glamor'
 // import Header from '../components/header'
 // import './index.css'
 import Link from 'gatsby-link'
-import icon32 from '../static/logo/favicon-32x32.png'
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -16,16 +15,9 @@ const ListLink = props => (
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-      link={[
-      { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
-      ]}
-    />
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+    </Helmet>
     {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
     <div
       style={{
