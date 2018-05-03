@@ -28,8 +28,8 @@ export default({ data }) => {
 };
 
 export const query = graphql `
-  query IndexQuery {
-    allMarkdownRemark(
+  query CodeQuery {
+    allMarkdownRemark(filter: { frontmatter: { category: { regex: "/.*code.*/" } } }
     sort: {
       fields: [frontmatter___date],
       order: DESC

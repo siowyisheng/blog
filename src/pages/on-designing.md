@@ -1,6 +1,7 @@
 ---
 title: "On designing"
 date: "2018-05-02"
+category: "design"
 ---
 
 Emulate before innovate.

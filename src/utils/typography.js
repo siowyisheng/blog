@@ -1,6 +1,6 @@
 import Typography from 'typography'
-import kirkhamTheme from 'typography-theme-kirkham'
+import doelgerTheme from 'typography-theme-doelger'
 
-const typography = new Typography(kirkhamTheme)
+const typography = new Typography(doelgerTheme)
 
 export default typography;

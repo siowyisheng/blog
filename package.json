@@ -15,6 +15,7 @@
     "glamorous": "^4.12.4",
     "npm": "^6.0.0",
     "react-helmet": "^5.2.0",
+    "typography-theme-doelger": "^0.15.11",
     "typography-theme-kirkham": "^0.16.3"
   },
   "keywords": [

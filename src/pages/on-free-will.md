@@ -1,6 +1,7 @@
 ---
 title: "On free will"
 date: "2018-05-01"
+category: "life"
 ---
 
 If I want to move my hand, I can just decide to move it.

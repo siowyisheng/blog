@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import g from 'glamorous'
 import { css } from 'glamor'
-// import Header from '../components/header'
-// import './index.css'
 import Link from 'gatsby-link'
 
 const ListLink = props => (
@@ -18,7 +16,6 @@ const Layout = ({ children, data }) => (
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
     </Helmet>
-    {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
     <div
       style={{
         margin: '0 auto',
@@ -27,14 +24,12 @@ const Layout = ({ children, data }) => (
       }}
     >
       <header style={{ marginBottom: `1.5rem` }}>
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 style={{ display: `inline` }}>{data.site.siteMetadata.title}</h3>
-        </Link>
-        <ul style={{ listStyle: `none`, float: `right` }}>
-          <ListLink to="/">Home</ListLink>
-          <ListLink to="/about/">About</ListLink>
-          <ListLink to="/contact/">Contact</ListLink>
-        </ul>
+        <h2 style={{ display: `inline` }}>
+          <Link to="/life/" style={{ color: `#ff2268` }}>Life,</Link>
+          <Link to="/design/" style={{ color: `#e86013` }}>Design,</Link>
+          <Link to="/games/" style={{ color: `#8213e8` }}>Games,</Link>
+          <Link to="/code/" style={{ color: `#2269ff` }}>Code</Link>
+        </h2>
       </header>
     </div>
     <div

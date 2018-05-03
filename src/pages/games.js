@@ -28,8 +28,8 @@ export default({ data }) => {
 };
 
 export const query = graphql `
-  query IndexQuery {
-    allMarkdownRemark(
+  query GamesQuery {
+    allMarkdownRemark(filter: { frontmatter: { category: { regex: "/.*games.*/" } } }
     sort: {
       fields: [frontmatter___date],
       order: DESC
