@@ -1,2 +1,2 @@
-webpackJsonp([0xf4b6e9e7b7a3],{371:function(e,t){e.exports={data:{markdownRemark:{html:"<p>Code duplication makes difficult code editing.</p>",frontmatter:{title:"On software development philosophies"}}},pathContext:{slug:"/on-software-development-philosophies/"}}}});
+webpackJsonp([0xf4b6e9e7b7a3],{369:function(e,t){e.exports={data:{markdownRemark:{html:"<p>Code duplication makes difficult code editing.</p>",frontmatter:{title:"On software development philosophies"}}},pathContext:{slug:"/on-software-development-philosophies/"}}}});
 //# sourceMappingURL=path---on-software-development-philosophies-259adc36630759e8546c.js.map
