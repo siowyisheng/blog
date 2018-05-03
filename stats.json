@@ -17,8 +17,8 @@
       "path---on-free-will-3fbbccc413190519741b.js.map"
     ],
     "path---technologies-in-web-development": [
-      "path---technologies-in-web-development-5fc6341f02ac84e34275.js",
-      "path---technologies-in-web-development-5fc6341f02ac84e34275.js.map"
+      "path---technologies-in-web-development-927be8386c6a76135549.js",
+      "path---technologies-in-web-development-927be8386c6a76135549.js.map"
     ],
     "path---": [
       "path----41c3238021af7c2e6714.js",
@@ -29,16 +29,20 @@
       "component---src-templates-blog-post-js-c2d346070e72a1c66bcc.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-20198f1a6c01c81adf98.js",
-      "component---src-layouts-index-js-20198f1a6c01c81adf98.js.map"
+      "component---src-layouts-index-js-67a6b2fb2e10bb8b370d.js",
+      "component---src-layouts-index-js-67a6b2fb2e10bb8b370d.js.map"
+    ],
+    "path---concordia-strategy": [
+      "path---concordia-strategy-006f0feda2b7d9784113.js",
+      "path---concordia-strategy-006f0feda2b7d9784113.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-affd227115bde50a1c1d.js",
-      "path---index-affd227115bde50a1c1d.js.map"
+      "path---index-b8696b67895d12339adf.js",
+      "path---index-b8696b67895d12339adf.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js",
@@ -61,20 +65,24 @@
       "component---src-pages-page-2-js-f2ad9f0431c486d4e2c2.js.map"
     ],
     "app": [
-      "app-9a44cdab18c2d2b129f6.js",
-      "app-9a44cdab18c2d2b129f6.js.map"
+      "app-0e7e5c2c6338056aaf51.js",
+      "app-0e7e5c2c6338056aaf51.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---ux-best-practices": [
+      "path---ux-best-practices-262e6def9eb61d7674a2.js",
+      "path---ux-best-practices-262e6def9eb61d7674a2.js.map"
     ],
     "path---on-designing": [
       "path---on-designing-c34b30565978b2a452ad.js",
       "path---on-designing-c34b30565978b2a452ad.js.map"
     ],
     "path---on-software-development-philosophies": [
-      "path---on-software-development-philosophies-876e99dcdb3aa8aa82c8.js",
-      "path---on-software-development-philosophies-876e99dcdb3aa8aa82c8.js.map"
+      "path---on-software-development-philosophies-259adc36630759e8546c.js",
+      "path---on-software-development-philosophies-259adc36630759e8546c.js.map"
     ]
   }
 }
