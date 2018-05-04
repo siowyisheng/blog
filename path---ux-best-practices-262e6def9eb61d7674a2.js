@@ -1,2 +1,2 @@
-webpackJsonp([0xe72407eb0307],{371:function(t,e){t.exports={data:{markdownRemark:{html:"<h4>Regular users</h4>\n<p>Clicks to\nEasy clicks\nHard clicks</p>\n<h4>Power users</h4>\n<p>Keystrokes to</p>",frontmatter:{title:"UX best practices"}}},pathContext:{slug:"/ux-best-practices/"}}}});
+webpackJsonp([0xe72407eb0307],{373:function(t,e){t.exports={data:{markdownRemark:{html:"<h4>Regular users</h4>\n<p>Clicks to\nEasy clicks\nHard clicks</p>\n<h4>Power users</h4>\n<p>Keystrokes to</p>",frontmatter:{title:"UX best practices"}}},pathContext:{slug:"/ux-best-practices/"}}}});
 //# sourceMappingURL=path---ux-best-practices-262e6def9eb61d7674a2.js.map

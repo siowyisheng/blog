@@ -1,0 +1,2 @@
+webpackJsonp([79702841818201],{373:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/yisheng/blog/src/pages/on-free-will.md absPath of file >>> MarkdownRemark",fields:{slug:"/on-free-will/"},frontmatter:{title:"On free will",date:"01 May, 2018"},excerpt:"If I want to move my hand, I can just decide to move it. Nothing stops me from doing so.  * moves hand *  See? But the question is, did I…"}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---life-02f97bd351b99d34b9e0.js.map
