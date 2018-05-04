@@ -15,6 +15,15 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content="one guy's thoughts" />
+      <meta name="keywords" content="Life,Design,Games,Code,Board games" />
+      <meta name="author" content="Siow Yi Sheng" />
+      <meta property="og:title" content="Life,Design,Games,Code" />
+      <meta
+        property="og:url"
+        content="https://foreverfighter.github.io/blog/"
+      />
+      <meta property="og:description" content="one guy's thoughts" />
     </Helmet>
     <div
       style={{
@@ -25,10 +34,18 @@ const Layout = ({ children, data }) => (
     >
       <header style={{ marginBottom: `1.5rem` }}>
         <h2 style={{ display: `inline` }}>
-          <Link to="/life/" style={{ color: `#ff2268` }}>Life,</Link>
-          <Link to="/design/" style={{ color: `#e86013` }}>Design,</Link>
-          <Link to="/games/" style={{ color: `#8213e8` }}>Games,</Link>
-          <Link to="/code/" style={{ color: `#2269ff` }}>Code</Link>
+          <Link to="/life/" style={{ color: `#ff2268` }}>
+            Life,
+          </Link>
+          <Link to="/design/" style={{ color: `#e86013` }}>
+            Design,
+          </Link>
+          <Link to="/games/" style={{ color: `#8213e8` }}>
+            Games,
+          </Link>
+          <Link to="/code/" style={{ color: `#2269ff` }}>
+            Code
+          </Link>
         </h2>
       </header>
     </div>

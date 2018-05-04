@@ -6,6 +6,8 @@ category: "design"
 
 Emulate before innovate.
 
+Don't reinvent the wheel.
+
 Be willing to kill your babies.
 
 Create quickly. Destroy mercilessly.
