@@ -1,2 +1,0 @@
-webpackJsonp([0xeab58b01d668],{376:function(e,n){e.exports={data:{markdownRemark:{html:"<p>Emulate before innovate.</p>\n<p>Don't reinvent the wheel.</p>\n<p>Be willing to kill your babies.</p>\n<p>Create quickly. Destroy mercilessly.</p>",frontmatter:{title:"On designing"}}},pathContext:{slug:"/on-designing/"}}}});
-//# sourceMappingURL=path---on-designing-5fff9f105c7602828988.js.map

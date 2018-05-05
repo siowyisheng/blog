@@ -1,2 +1,0 @@
-webpackJsonp([0x744f22fc210d],{365:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Concordia strategy"}}},pathContext:{slug:"/concordia-strategy/"}}}});
-//# sourceMappingURL=path---concordia-strategy-006f0feda2b7d9784113.js.map

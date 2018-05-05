@@ -1,2 +1,0 @@
-webpackJsonp([0x6753e1fb50df],{379:function(t,e){t.exports={data:{markdownRemark:{html:"<p>no content yet</p>",frontmatter:{title:"On the value of bitcoin"}}},pathContext:{slug:"/on-the-value-of-bitcoin/"}}}});
-//# sourceMappingURL=path---on-the-value-of-bitcoin-2d6109f0abc7efeea568.js.map

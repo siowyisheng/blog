@@ -1,0 +1,2 @@
+webpackJsonp([59997169059446],{371:function(n,e){n.exports={data:{markdownRemark:{html:"<p>L10N\ndjango\npython\njavascript\nhtml\ncss</p>",frontmatter:{title:"Technologies in web development"}}},pathContext:{slug:"/technologies-in-web-development/"}}}});
+//# sourceMappingURL=path---technologies-in-web-development-5fc6341f02ac84e34275.js.map
