@@ -1,2 +1,2 @@
-webpackJsonp([0x6753e1fb50df],{395:function(t,e){t.exports={data:{markdownRemark:{htmlAst:{type:"root",children:[{type:"element",tagName:"p",properties:{},children:[{type:"text",value:"no content yet"}]}],data:{quirksMode:!1}},frontmatter:{title:"On the value of bitcoin"}}},pathContext:{slug:"/on-the-value-of-bitcoin/"}}}});
+webpackJsonp([0x6753e1fb50df],{396:function(t,e){t.exports={data:{markdownRemark:{htmlAst:{type:"root",children:[{type:"element",tagName:"p",properties:{},children:[{type:"text",value:"no content yet"}]}],data:{quirksMode:!1}},frontmatter:{title:"On the value of bitcoin"}}},pathContext:{slug:"/on-the-value-of-bitcoin/"}}}});
 //# sourceMappingURL=path---on-the-value-of-bitcoin-7349813d4c2582e9ee84.js.map
