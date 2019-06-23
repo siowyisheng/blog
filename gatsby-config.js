@@ -3,9 +3,16 @@ module.exports = {
     title: `Life, Design, Games, Code`,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-glamor`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["gatsby-remark-component"]
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -18,6 +25,13 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
+      }
     },
     {
       resolve: `gatsby-plugin-favicon`,
