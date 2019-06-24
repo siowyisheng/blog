@@ -6,7 +6,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import glamorous from 'glamorous'
 import { StaticQuery, graphql } from 'gatsby'
-
 import logo from './logo.png'
 
 const RH2 = glamorous.h2({
@@ -18,15 +17,15 @@ const RH2 = glamorous.h2({
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query {
         site {
           siteMetadata {
             title
           }
         }
         logoImage: imageSharp(id: { regex: "/logo/" }) {
-          resolutions(width: 50, height: 50) {
-            ...GatsbyImageSharpResolutions
+          fixed(width: 50, height: 50) {
+            ...GatsbyImageSharpFixed
           }
         }
       }

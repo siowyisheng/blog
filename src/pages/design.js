@@ -2,7 +2,7 @@ import React from 'react'
 import g from 'glamorous'
 import Link from 'gatsby-link'
 import Layout from '../components/layout'
-
+import { graphql } from 'gatsby'
 import { rhythm } from '../utils/typography'
 
 export default ({ data }) => {

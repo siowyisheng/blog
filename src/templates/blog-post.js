@@ -2,6 +2,7 @@ import React from 'react'
 import rehypeReact from 'rehype-react'
 import Tooltip from '../components/tooltip.js'
 import Layout from '../components/layout'
+import { graphql } from 'gatsby'
 
 export default ({ data }) => {
   const post = data.markdownRemark
