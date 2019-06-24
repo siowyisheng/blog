@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{108:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Life, Design, Games, Code"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----d022bc8c7a4a56e68066.js.map
