@@ -1,12 +1,13 @@
 import React from 'react'
 import g from 'glamorous'
 import Link from 'gatsby-link'
+import Layout from '../components/layout'
 
 import { rhythm } from '../utils/typography'
 
 export default ({ data }) => {
   return (
-    <div>
+    <Layout>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link
@@ -18,7 +19,7 @@ export default ({ data }) => {
           </Link>
         </div>
       ))}
-    </div>
+    </Layout>
   )
 }
 

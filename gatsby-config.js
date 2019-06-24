@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-glamor`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-transformer-remark',
