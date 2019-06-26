@@ -6,7 +6,7 @@ category: "code design"
 
 #### Regular users
 
-Clicks to
+Clicks to do x
 
 Easy clicks
 
@@ -14,4 +14,4 @@ Hard clicks
 
 #### Power users
 
-Keystrokes to
+Keystrokes to do x
