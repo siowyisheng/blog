@@ -1,7 +1,7 @@
 ---
 title: "On emojis"
 date: "2019-06-24"
-category: "coding"
+category: "design,code"
 ---
 
 Emojis are excellent.
