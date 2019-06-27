@@ -8,9 +8,16 @@ module.exports = {
     `gatsby-plugin-glamor`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: ['gatsby-remark-component'],
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ],
       },
     },
     {
