@@ -34,9 +34,13 @@ In each half-decade, 7 cards are laid out on the board. Each card has a value to
 
 #### Playing hand cards
 
-It is costly and generally inadvisable to play hand cards in the first half of each decade (D1.5, D2.5, ...). This is because the opponent gets to take another card from the board.
+It is generally best to play hand cards when 1 card is left on the board in the first half of each decade (D1.5, D2.5, ...). In every other situation, the opponent gets to take an extra card from the board, which results in them either getting better picks of the cards or them getting to play more cards than us.
 
-WIP
+The player with priority from prestige can choose how many hand cards to play and the other player must either follow suit or give up the first pick of the second half of the decade, which has the highest swing value. This is a great advantage of having priority. 
+
+The player with priority should play only strong cards from hand. A large advantage can be gained if they have strong hand cards and the opponent is forced to play weak hand cards. If the player with priority has weak hand cards, they can _rush_ the decade by playing no hand cards and the opponent will need to give up some board cards to play his hand cards. 
+
+There are two exceptions to playing strong hand cards at the ends of the first-half-decades. The first is having unrest removal in hand as West in D2 and the board having no mass protest. It is good to save the unrest removal until after East plays unrest cards in D2.5. The second exception is having _Shipyards Crisis_ or _Oil Crisis_ as East. These are often useful to save for late in the decade to play, where the opponent often cannot repair the damage done before the decade ends. 
 
 #### Prestige
 
