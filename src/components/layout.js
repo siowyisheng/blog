@@ -112,18 +112,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-// export const query = graphql`
-//   query SiteTitleQuery {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//     logoImage: imageSharp(id: { regex: "/logo/" }) {
-//       resolutions(width: 50, height: 50) {
-//         ...GatsbyImageSharpResolutions
-//       }
-//     }
-//   }
-// `
