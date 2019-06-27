@@ -20,7 +20,9 @@ I will also refer to the first half of decade 1 as **D1.0**, the second half of 
 
 #### Choosing card modes
 
-Building is the most common card mode. Building infrastructure is more economy-efficient as it increases economy by 2 while a new factory increases economy by 1.
+Building is an important action. Building infrastructure is more economy-efficient as it increases economy by 2 while a new factory increases economy by 1. It's important to have a plan on where to build ([west](#Where-to-build-West) | [east](#Where-to-build-East)) to maximise infrastructure while meeting other economic objectives.
+
+Playing a card for the event is often worse than using it to build. It's important to have some kind of exchange rate between different effects and regular build points. For example, although the _1953 Uprising_ has a strong effect, the 4 build is often more valuable in D1.
 
 Add living standard is more efficiently done with 1-value cards, as the shortfall that it bridges could usually be replaced by a build point, which is permanent, which contributes to economy/export factory value and also can be dismantled for future 'remove unrest' actions.
 
@@ -28,11 +30,13 @@ Spending a card to remove unrest is important when removing important mass prote
 
 #### Playing cards from the board
 
-In each half-decade, 7 cards are laid out on the board. Each card has a value to each player, which often different. For example, _1953 Uprising_ is worth 4 build points to 
+In each half-decade, 7 cards are laid out on the board. Each card has a value to each player, which often different. For example, _1953 Uprising_ is worth at least 4 build points to West and at least 1 build point to East. We can say that the swing value is at least 5 build points. Naively, we can say that we can extract most relative value from the board cards by taking the cards with the highest swing value. However, the values of cards in WSDV are often dynamic depending on board state, tracks, hand cards and other cards on the board. Nevertheless, it's useful to think about the swing value of cards.
 
 #### Playing hand cards
 
 It is costly and generally inadvisable to play hand cards in the first half of each decade (D1.5, D2.5, ...). This is because the opponent gets to take another card from the board.
+
+WIP
 
 #### Prestige
 
@@ -42,6 +46,16 @@ Gaining priority is the biggest reward of prestige. During the decade, it means 
 
 ### As West Germany
 
+WIP
 
+#### Where to build (West)
+
+WIP
 
 ### As East Germany
+
+WIP
+
+#### Where to build (East)
+
+WIP
