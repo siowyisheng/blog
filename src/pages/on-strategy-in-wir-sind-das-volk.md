@@ -14,35 +14,35 @@ These thoughts will not be meaningful without knowledge of the [rules](http://ww
 
 I will use the following short forms.
 
-*. 😡 for unrest
-*. 👿 for mass protest
-*. ❌😡 for removing unrest
-*. ❌👿 for removing mass protest
-*. 😁 for LS
-*. 🛠 for build
-*. ❌🛠 for dismantle
-*. 🏭 for factory
-*. 🔽🏭 for rundown
-*. 🛣 for infrastructure
-*. ⭐️ for the prestige track
-*. 💵 for the western currency track
-*. ☭ for the socialist track
-*. 🖐🃏 for hand cards
-*. -6⭐️ for the spot on the prestige track closest to **West**
-*. +3☭ for the spot on the socialist track 3 steps towards **East**
-*. D1 for decade 1
-*. D2.0 for the first half of decade 2
-*. D3.5 for the second half of decade 3
-*. P1 for the player going first in the decade
-*. P2 for the player going second in the decade
-*. WC for western currency (not the track)
-*. WB for West Berlin
+* 😡 for unrest
+* 👿 for mass protest
+* ❌😡 for removing unrest
+* ❌👿 for removing mass protest
+* 😁 for LS
+* 🛠 for build
+* ❌🛠 for dismantle
+* 🏭 for factory
+* 🔽🏭 for rundown
+* 🛣 for infrastructure
+* ⭐️ for the prestige track
+* 💵 for the western currency track
+* ☭ for the socialist track
+* 🖐🃏 for hand cards
+* -6⭐️ for the spot on the prestige track closest to **West**
+* +3☭ for the spot on the socialist track 3 steps towards **East**
+* D1 for decade 1
+* D2.0 for the first half of decade 2
+* D3.5 for the second half of decade 3
+* P1 for the player going first in the decade
+* P2 for the player going second in the decade
+* WC for western currency (not the track)
+* WB for West Berlin
 
 ### For both sides
 
 #### Choosing card modes
 
-🛠 is an important action. 🛠🛣 is more economy-efficient as it increases economy by 2 while a new 🏭 increases economy by 1. It's important to have a plan on where to 🛠 ([west](#Where-to-build-and-LS-West-%F0%9F%9B%A0%F0%9F%98%81) | [east](#Where-to-build-and-LS-East)) to maximise 🛣 while meeting other economic objectives.
+🛠 is an important action. 🛠🛣 is more economy-efficient as it increases economy by 2 while a new 🏭 increases economy by 1. It's important to have a plan on where to 🛠 ([west](#Where-to-build-and-LS-West-) | [east](#Where-to-build-and-LS-East)) to maximise 🛣 while meeting other economic objectives.
 
 Playing a card for the event is often worse than using it for 🛠. It's important to have some kind of exchange rate between different effects and regular 🛠. For example, although the _1953 Uprising_ has a strong effect, the 4🛠 are often more valuable in D1.
 
@@ -116,7 +116,7 @@ West should prefer to LS in at least one Hamburg province (Nieder or Schleswig) 
 
 A particularly nasty scenario with 😡 is having a province with 👿 dismantled to zero economy so that it cannot support any 😁. That opens the province up to extra 😡 from neighbours and internal comparison, putting the province even further from rescue.
 
-Note that [having an efficient 🛠 plan](#Where-to-build-and-LS-West-%F0%9F%9B%A0%F0%9F%98%81) and prioritising 🛠 is a great defense vs 😡, since it allows the natural development of 😁 to ❌😡, which also advances the game plan of attacking East through external 😁 comparison.
+Note that [having an efficient 🛠 plan](#Where-to-build-and-LS-West-) and prioritising 🛠 is a great defense vs 😡, since it allows the natural development of 😁 to ❌😡, which also advances the game plan of attacking East through external 😁 comparison.
 
 It is important to be familiar with East's 😡 cards, as well as West's ❌😡 cards.
 
