@@ -12,13 +12,13 @@ These thoughts will not be meaningful without knowledge of the [rules](http://ww
 
 ### Language
 
-I will use the values between **-6 and +6** to refer to spots on the prestige, western currency (wc) and socialist track. -6 is the spot on the West side furthest from the middle.
+I will use the values between **-6 and +6** to refer to spots on the prestige, western currency (**WC**) and socialist track. -6 is the spot on the West side furthest from the middle.
 
 I will also refer to the first half of decade 1 as **D1.0**, the second half of decade 1 as **D1.5** and so on. So D3.5 refers to the second half of decade 3.
 
 I will also refer to the player going first in the decade (because of prestige advantage) as **P1** and the other player as **P2**.
 
-I will also refer to living standard as LS.
+I will also refer to living standard as **LS**.
 
 ### For both sides
 
