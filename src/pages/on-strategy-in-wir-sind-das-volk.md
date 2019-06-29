@@ -104,11 +104,11 @@ However, it's no big loss if NordWest is the first WB supplier.
 
 ![w3](../img/w3.png)
 
-With 20 build, West can get a very strong position as shown here. This build assumes that the first supplier to WB was Baden. The second supplier here is RheinPfalz. The position has a minimum export level of 3 and can develop 2😁 in all border provinces and WB. With just two more 🛠 in NordWest, West can have 8 economy there and deliver the 3rd 😁 to WB. Such a position, together with the events in D4, is often enough to craft the West 😡 victory in D4.
+With 20🛠, West can get a very strong position as shown here. This build assumes that the first supplier to WB was Baden. The second supplier here is RheinPfalz. The position has a minimum export level of 3 and can develop 2😁 in all border provinces and WB. With just two more 🛠 in NordWest, West can have 8 economy there and deliver the 3rd 😁 to WB. Such a position, together with the events in D4, is often enough to craft the West 😡 victory in D4.
 
 #### Hamburg
 
-West should prefer to LS in at least one Hamburg province (Nieder or Schleswig) for each LS action. An easy mistake to make is to forget that Hamburg cannot count for both provinces, and thus be unable to LS in both Nieder and Schleswig in the same action.
+West should prefer to LS in at least one Hamburg province (Nieder or Schleswig) for each LS action. An easy mistake to make is to forget that Hamburg cannot count for both provinces in the same action, and thus be unable to LS in both Nieder and Schleswig.
 
 #### Managing unrest and mass protests 😡👿
 
@@ -140,7 +140,11 @@ Beyond this combination of 👿 and ❌🛠, it's important to place as much �
 
 #### Where to build and LS (East)
 
-**WIP**
+
+
+#### Western Currency
+
+💵 is a difficult resource to manage. On one hand, we want enough to it to 
 
 #### The Wall
 
