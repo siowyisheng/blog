@@ -14,31 +14,33 @@ These thoughts will not be meaningful without knowledge of the [rules](http://ww
 
 I will use the following short forms.
 
-* 😡 for unrest
-* 👿 for mass protest
-* ❌😡 for removing unrest
-* ❌👿 for removing mass protest
-* 😁 for LS
-* 🛠 for build
-* ❌🛠 for dismantle
-* 🏭 for factory
-* 🔽🏭 for rundown
-* 🛣 for infrastructure
-* ⭐️ for the prestige track
-* 💵 for the western currency track
-* ☭ for the socialist track
-* 🖐🃏 for hand cards
-* -6⭐️ for the spot on the prestige track closest to **West**
-* +3☭ for the spot on the socialist track 3 steps towards **East**
-* D1 for decade 1
-* D2.0 for the first half of decade 2
-* D3.5 for the second half of decade 3
-* P1 for the player going first in the decade
-* P2 for the player going second in the decade
-* WC for western currency (not the track)
-* WB for West Berlin
+| SHORT FORM | MEANING                                                  |
+| ---------- | -------------------------------------------------------- |
+| 😡         | unrest                                                   |
+| 👿         | mass protest                                             |
+| ❌😡        | removing unrest                                          |
+| ❌👿        | removing mass protest                                    |
+| 😁         | living standard                                          |
+| 🛠         | build                                                    |
+| ❌🛠        | dismantle                                                |
+| 🏭         | factory                                                  |
+| 🔽🏭       | rundown                                                  |
+| 🛣         | infrastructure                                           |
+| ⭐          | the prestige track                                       |
+| 💵         | the western currency track                               |
+| ☭          | the socialist track                                      |
+| 🖐🃏       | hand cards                                               |
+| -6⭐️       | the spot on the prestige track closest to **West**       |
+| +3☭        | the spot on the socialist track 3 steps towards **East** |
+| D1         | decade 1                                                 |
+| D2.0       | the first half of decade 2                               |
+| D3.5       | the second half of decade 3                              |
+| P1         | the player going first in the decade                     |
+| P2         | the player going second in the decade                    |
+| WC         | western currency (not the track)                         |
+| WB         | West Berlin                                              |
 
-### For both sides
+### General play
 
 #### Choosing card modes
 
@@ -64,7 +66,7 @@ P1 should play their strong 🖐🃏 at the end of each first-half-decade. A lar
 
 There are two exceptions to playing strong 🖐🃏 at the ends of the first-half-decades. The first is having ❌😡 in hand as West in D2 and the board having no 👿. It is good to save the ❌😡 until after East plays 😡 cards in D2.5. The second exception is having _Shipyards Crisis_ or _Oil Crisis_ as East. These are often useful to save for late in the decade to play, where the opponent often cannot repair the damage done from ❌🛠 before the decade ends.
 
-#### Prestige ⭐️
+#### The prestige track ⭐️
 
 ⭐️ is of high importance overall, but parts of the ⭐️ track differ in [_temperature_](https://senseis.xmp.net/?TemperatureCGT) (urgency of contesting the track). The middle of the track, between -1⭐️ and +1⭐️ is the hottest. Between -1⭐️ and -4⭐️ is the coolest part of the track, as there is relatively little difference between 1🔽🏭 and 1❌🛠 + 1😡.
 
@@ -80,13 +82,19 @@ Gaining 1🔽🏭 as West is a similarly powerful reward. 🏭 which haven't bee
 
 LS removal at -5⭐️ and -6⭐️ is generally very strong, once West's border provinces have at least 2😁 on them. What commonly happens is that 1❌😁 leads to 2 to 3 extra 😡 hits, 2 from the neighbouring West provinces and 1 from internal 😁 comparison if any East provinces have 2😁 already. This means that -5⭐️ and -6⭐️ can cause a total of 3-4😡, which can be a killing blow to an otherwise solid East side in D4.
 
+#### The socialist track ☭
+
+☭ is arguably the most important track, as either side can directly win the game through it. Exactly how important it is in a particular game depends on ☭ at the end of D1. West can pressure a socialist victory if D1 ends at +1☭ or better, while East can pressure a socialist victory at +5☭ or +6☭. It's important, thus, for both players to try to reach their respective zones and to keep out of their own danger area. If D1 ends between +2☭ and +4☭, there will usually be no socialist victory for either side.
+
+If East can reach +5☭ in D1, they should strongly consider playing the special D1 card _Russian tanks_ to reach +6☭, which is a near certain socialist victory for the East.
+
+When the socialist victory is threatened from either side, East should ensure that the Wall is built in D2, as it confers the use of the alternate special card in D4, _The Wall comes down_, which gives a gigantic +2☭, amonst other effects.
+
 #### Timing of building vs LS 🛠 😁
 
 Between the 🛠 and 😁 actions, 😁 actions should be left to as late in the decade as possible, since 😁 doesn't help at all during the decade, whereas 🛠 helps create economy for 😁.
 
-### As West Germany
-
-#### Where to build and LS (West) 🛠😁
+#### Where to build and LS as West Germany 🛠😁
 
 Where to 🛠 🏭 and 🛣 is of crucial importance. An efficient plan of 🛠 generates more economy and reaches minimum export of 2 and 3 earlier than an inefficient plan.
 
@@ -144,7 +152,7 @@ Beyond this combination of 👿 and ❌🛠, it's important to place as much �
 
 #### Western Currency
 
-💵 is a difficult resource to manage. On one hand, we want enough to it to 
+💵 is a difficult resource to manage. On one hand, East wants enough of it so that they don't suffer 🔽🏭 from shortage. The final goal of WC is to not suffer any ❌🛠 in D4. 
 
 #### The Wall
 
