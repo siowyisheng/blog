@@ -12,7 +12,7 @@ These thoughts will not be meaningful without knowledge of the [rules](http://ww
 
 ### Short forms
 
-I will use the following short forms.
+I will use the following short forms for brevity. There are quite a few of them, but most of them should be intuitive, and some can be intuited after knowing the others.
 
 | SHORT FORM | MEANING                                                  |
 | ---------- | -------------------------------------------------------- |
@@ -80,7 +80,7 @@ Going past +6⭐️ as East is a rare occurrence, but is powerful when 😡 is a
 
 Gaining 1🔽🏭 as West is a similarly powerful reward. 🏭 which haven't been run down are important resources to skilled East players, because they prevent WC shortage in D4 from dismantling infrastructure. The 1🔽🏭 can often cause a WC shortage especially in D1, which is worth another 1🔽🏭.
 
-LS removal at -5⭐️ and -6⭐️ is generally very strong, once West's border provinces have at least 2😁 on them. What commonly happens is that 1❌😁 leads to 2 to 3 extra 😡 hits, 2 from the neighbouring West provinces and 1 from internal 😁 comparison if any East provinces have 2😁 already. This means that -5⭐️ and -6⭐️ can cause a total of 3-4😡, which can be a killing blow to an otherwise solid East side in D4.
+LS removal at -5⭐️ and -6⭐️ is generally very strong once West's border provinces have at least 2😁 on them. What commonly happens is that 1❌😁 leads to 2 to 3 extra 😡 hits, 2 from the neighbouring West provinces and 1 from internal 😁 comparison if any East provinces have 2😁 already. This means that -5⭐️ and -6⭐️ can cause a total of 3-4😡, which can be a killing blow to an otherwise solid East side in D4.
 
 #### The socialist track ☭
 
@@ -89,6 +89,8 @@ LS removal at -5⭐️ and -6⭐️ is generally very strong, once West's border
 If East can reach +5☭ in D1, they should strongly consider playing the special D1 card _Russian tanks_ to reach +6☭, which is a near certain socialist victory for the East.
 
 When the socialist victory is threatened from either side, East should ensure that the Wall is built in D2, as it confers the use of the alternate special card in D4, _The Wall comes down_, which gives a gigantic +2☭, amonst other effects.
+
+When the socialist victory is threatened, it's important
 
 #### Timing of building vs LS 🛠 😁
 
