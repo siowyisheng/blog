@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "lgdc-blog",
+  "description": "Life Games Design Code blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Siow Yi Sheng <siowyisheng@gmail.com>",
   "dependencies": {
     "esm": "^3.2.25",
     "gatsby": "^2.10.0",
