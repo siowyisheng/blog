@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[2],{w2l6:function(t,e,n){"use strict";n.r(e),function(t){n("q1tI");e.default=function(){return t.createElement("div",null,t.createElement("h1",null,"NOT FOUND"),t.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}.call(this,n("iMUK"))}}]);
-//# sourceMappingURL=component---src-pages-404-js-2e78389c3a2120a5b8e7.js.map
+//# sourceMappingURL=component---src-pages-404-js-5a825fa1a6edce4dc6c7.js.map
