@@ -1,37 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[One guy's blog about life, design, games and code.]]></description><link>https://siowyisheng.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Jul 2022 20:30:13 GMT</lastBuildDate><item><title><![CDATA[Test one more]]></title><description><![CDATA[booms it works  more text here]]></description><link>https://siowyisheng.github.io/blog/test-one-more/</link><guid isPermaLink="false">https://siowyisheng.github.io/blog/test-one-more/</guid><pubDate>Sat, 30 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;booms it works&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 314px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ec633401743907059095b4f1b7f3ce13/5b158/my-image-booms.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 73.41772151898735%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC9UlEQVQoz02SWW/aaBSGuWsoKSFAorSleMMr3pfPnxe8YLxhszgJEKCTNpNmMjOtql7M/9fIycWMdHT0XpxHOkfnaXRpyDjlCMQ0nPOTJarPhuoU02PSzDl7iRmzoRbhRiyE11Kwfi9MOpTZpeFrNc5pOHZX3vKrW365++OfaXXv3zyCbBesH9K7H6vjs7f4TMFUjnd6vB3KQYf8P0yZbRqiRtpjHcYuUG1KWPNL3vmkRoiRMfY1os1PCXjySXyDyCcjo02C/+A+YwExooxMCm8FfyVPKhYW/GRJgIx3JtqEMzxJgOrYr1S7DOWE05MObfYZq4Z7NKRYF1dnlFUwTjF2FhTIKZgN1YgwHNGSOFOhdBXVZqjoAz7EBL+Fa21CPxsZjR5rY1ZG2Pk4rFA9QtQp5ZYkTAVvxThLDC5oZ02YJeuvBb/C7Ez0K3m60eMNAZLGOW1S1rw4fg9uHvP9X25+N7t9HJkJCfMRzHBQB1SbkXbBOiWqRbQ1J8yccxcvMGV2KYio8UANMSO7YK2Pkv8O15qIfIqrTURpokoLU1uo0kTkt3WXWqhyMpSaqNLoszbrlrS3kOpNIn6yJPVcDCptdkNacz3ZOOlBDW8lv1KnG6u8h9lBDCq7OLj550aHMkcgX/z2M9n/uf7yy813TnHkvUWyewqqR35S4lqMajNEmeJ6SpgZbReYnlBWTppZo0ubZyPwUQoux857we8z1iXndEjjgnMux+47XHuLKC1UaeFaC1ObQ+nlBLWJyE1Erg0D5UH0V5xTqsmGsjIlvWO9heBXRrKl7MzI92C+l4KVnOyc8r4ei7d2cXDmx0aXgaA8xttv4fXXbPesJdt4/3e8e5rtnq18P9TCoRIhWjSQ/IEcEiC94r2BPEVfhK//3GOsK97tMmafqfNADj+I/pXgXbB2m9BP8dqHDgnOSNAmjA5ldkjjbGS0a0k4b7p6wEASrH8H6S7aPo/tkvMXQrB21w/Z7ZM4Kc9p2Hvx8bW/hh4N/wWwW7tWMM8MaQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;booms&quot;
-        title=&quot;booms&quot;
-        src=&quot;/blog/static/ec633401743907059095b4f1b7f3ce13/5b158/my-image-booms.png&quot;
-        srcset=&quot;/blog/static/ec633401743907059095b4f1b7f3ce13/c26ae/my-image-booms.png 158w,
-/blog/static/ec633401743907059095b4f1b7f3ce13/5b158/my-image-booms.png 314w&quot;
-        sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;more text here&lt;/p&gt;
-&lt;!---
-![booms](./my-image-booms.png)
---&gt;</content:encoded></item><item><title><![CDATA[I Wrote the Jigoku Game Log Chrome Extension]]></title><description><![CDATA[I recently wrote my first chrome extension, Jigoku Game Log. Jigoku Jigoku is an excellent online implementation of the excellent card game…]]></description><link>https://siowyisheng.github.io/blog/jigoku-chrome-extension/</link><guid isPermaLink="false">https://siowyisheng.github.io/blog/jigoku-chrome-extension/</guid><pubDate>Thu, 05 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently wrote my first chrome extension, &lt;a href=&quot;https://chrome.google.com/webstore/detail/jigoku-game-log/cofpncfeggiibpickflljahgmhabgkeg&quot;&gt;Jigoku Game Log&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[One guy's blog about life, design, games and code.]]></description><link>https://siowyisheng.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Jul 2022 20:39:27 GMT</lastBuildDate><item><title><![CDATA[On getting back to blogging]]></title><description><![CDATA[I’m back to the blog, after a long break. I wrote a bunch of draft posts but they ended up too ambitious and now they’ve rotten through the…]]></description><link>https://siowyisheng.github.io/blog/on-getting-back-to-blogging/</link><guid isPermaLink="false">https://siowyisheng.github.io/blog/on-getting-back-to-blogging/</guid><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’m back to the blog, after a long break. I wrote a bunch of draft posts but they ended up too ambitious and now they’ve rotten through the passage of time.&lt;/p&gt;
+&lt;p&gt;But now I’m back and I hope to write more. Writing is creating and I’m a creator 🙂.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I Wrote the Jigoku Game Log Chrome Extension]]></title><description><![CDATA[I recently wrote my first chrome extension, Jigoku Game Log. Jigoku Jigoku is an excellent online implementation of the excellent card game…]]></description><link>https://siowyisheng.github.io/blog/jigoku-chrome-extension/</link><guid isPermaLink="false">https://siowyisheng.github.io/blog/jigoku-chrome-extension/</guid><pubDate>Thu, 05 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently wrote my first chrome extension, &lt;a href=&quot;https://chrome.google.com/webstore/detail/jigoku-game-log/cofpncfeggiibpickflljahgmhabgkeg&quot;&gt;Jigoku Game Log&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Jigoku&lt;/h4&gt;
 &lt;p&gt;Jigoku is an excellent online implementation of the excellent card game &lt;a href=&quot;https://www.fantasyflightgames.com/en/products/legend-of-the-five-rings-the-card-game/&quot;&gt;Legend of the Five Rings&lt;/a&gt;. Game events are logged as messages in a chat area in a corner of the page, together with any chat between the players. No game replays are saved.&lt;/p&gt;
 &lt;h4&gt;Jigoku Game Log&lt;/h4&gt;
