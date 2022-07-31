@@ -1,18 +1,7 @@
-import g from 'glamorous'
-import Helmet from 'react-helmet'
-import Img from 'gatsby-image'
-import Link from 'gatsby-link'
-import PropTypes from 'prop-types'
-import React from 'react'
-import glamorous from 'glamorous'
-import { StaticQuery, graphql } from 'gatsby'
-import logo from './logo.png'
-
-const RH2 = glamorous.h2({
-  '@media(max-width: 400px)': {
-    fontSize: `1.2rem`,
-  },
-})
+import PropTypes from "prop-types"
+import React from "react"
+import { Link, StaticQuery, graphql } from "gatsby"
+import logo from "./logo.png"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,23 +21,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Helmet>
-          <title>{data.site.siteMetadata.title}</title>
-          <meta name="description" content="one guy's thoughts" />
-          <meta name="keywords" content="Life,Design,Games,Code,Board games" />
-          <meta name="author" content="Siow Yi Sheng" />
-          <meta property="og:title" content="Life,Design,Games,Code" />
-          <meta
-            property="og:url"
-            content="https://foreverfighter.github.io/blog/"
-          />
-          <meta property="og:description" content="one guy's thoughts" />
-        </Helmet>
         <div
           style={{
-            margin: '0 auto',
+            margin: "0 auto",
             maxWidth: 960,
-            padding: '1.45rem 1.0875rem',
+            padding: "1.45rem 1.0875rem",
           }}
         >
           <header>
@@ -60,7 +37,7 @@ const Layout = ({ children }) => (
                 alt="Logo"
               />
             </Link>
-            <RH2 style={{ display: `inline` }}>
+            <h2 style={{ display: `inline` }}>
               <Link
                 to="/life/"
                 style={{ color: `#ff2268` }}
@@ -89,14 +66,14 @@ const Layout = ({ children }) => (
               >
                 Code
               </Link>
-            </RH2>
+            </h2>
           </header>
         </div>
         <div
           style={{
-            margin: '0 auto',
+            margin: "0 auto",
             maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
+            padding: "0px 1.0875rem 1.45rem",
             paddingTop: 0,
           }}
         >

@@ -1,43 +1,62 @@
-import React from 'react'
-import g from 'glamorous'
-import Link from 'gatsby-link'
-import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
-import { graphql } from 'gatsby'
+import * as React from "react"
+import { Link, graphql } from "gatsby"
 
-export default ({ data }) => {
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+
+const BlogIndex = ({ data, location }) => {
+  const posts = data.allMarkdownRemark.nodes
+
   return (
-    <Layout>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Link
-            to={node.fields.slug}
-            css={{ textDecoration: `none`, color: `inherit` }}
-          >
-            <g.H3>{node.frontmatter.title}</g.H3>
-            <p>{node.excerpt}</p>
-          </Link>
-        </div>
-      ))}
+    <Layout location={location}>
+      <ol style={{ listStyle: `none` }}>
+        {posts.map(post => {
+          const title = post.frontmatter.title || post.fields.slug
+
+          return (
+            <li key={post.fields.slug}>
+              <article
+                className="post-list-item"
+                itemScope
+                itemType="http://schema.org/Article"
+              >
+                <header>
+                  <h6 style={{ marginBottom: 0, color: "#999" }}>
+                    {post.frontmatter.date}
+                  </h6>
+                  <h3 style={{ marginTop: 0 }}>
+                    <Link to={post.fields.slug} itemProp="url">
+                      <span itemProp="headline">{title}</span>
+                    </Link>
+                  </h3>
+                </header>
+              </article>
+            </li>
+          )
+        })}
+      </ol>
+      <Bio />
     </Layout>
   )
 }
 
+export default BlogIndex
+
+export const Head = () => <Seo title="All posts" />
+
 export const query = graphql`
-  query IndexQuery {
+  query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
-          excerpt
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
         }
       }
     }

@@ -1,7 +1,7 @@
 ---
-title: "Jigoku Game Log Chrome Extension"
-date: "2019-12-05"
-category: "code"
+title: 'I Wrote the Jigoku Game Log Chrome Extension'
+date: '2019-12-05'
+category: 'code'
 ---
 
 I recently wrote my first chrome extension, [Jigoku Game Log](https://chrome.google.com/webstore/detail/jigoku-game-log/cofpncfeggiibpickflljahgmhabgkeg).
@@ -18,9 +18,9 @@ Jigoku Game Log goes into the DOM to extract the game events, omits superfluous 
 
 Using `const` and `let` gave me errors, so I used `var` throughout. I guess this might be because the script is constantly ongoing and doesn't get garbage collected.
 
-Submitting the game log to markdownshare.com through the fetch API was difficult. 
+Submitting the game log to markdownshare.com through the fetch API was difficult.
 
-First, Chrome doesn't allow fetch API from most areas in the extension. It needs to be done in the `background.js`, so **message passing** needs to be used to get the fetch request to `background.js`. 
+First, Chrome doesn't allow fetch API from most areas in the extension. It needs to be done in the `background.js`, so **message passing** needs to be used to get the fetch request to `background.js`.
 
 Second, I had issues with permissions, with my request not getting sent, with no informative error logs. Turns out, there are several places to add the cross-origin site permissions to.
 
