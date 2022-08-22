@@ -31,13 +31,14 @@ const Layout = ({ children }) => (
           <header>
             <Link to="/">
               <img
+                class={`logo`}
                 style={{ margin: `0 10px 0 0`, verticalAlign: `-40%` }}
                 width={40}
                 src={logo}
                 alt="Logo"
               />
             </Link>
-            <h2 style={{ display: `inline` }}>
+            <h2 class={`nav`} style={{ display: `inline` }}>
               <Link
                 to="/life/"
                 style={{ color: `#ff2268` }}

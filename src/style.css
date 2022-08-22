@@ -153,6 +153,16 @@ h6 > a {
   color: inherit;
 }
 
+@media screen and (max-width: 480px) {
+  .nav {
+    font-size: var(--fontSize-3);
+  }
+
+  .logo {
+    width: 30px;
+  }
+}
+
 /* Prose */
 
 p {
