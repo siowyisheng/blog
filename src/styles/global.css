@@ -56,13 +56,11 @@ td, th { border: 1px solid var(--accent); padding: 0.4rem 0.7rem; }
 /* masthead */
 .masthead { display: flex; align-items: center; gap: 0.6rem; flex-wrap: nowrap; margin-bottom: 2.5rem; }
 .masthead .logo { flex-shrink: 0; } .masthead .logo img { width: 2.4rem; height: 2.4rem; display: block; }
-.masthead nav.extra { flex-shrink: 0; }
 .masthead .title { font-family: var(--sans); font-weight: 800; font-size: clamp(1.15rem, 5.6vw, 1.9rem); line-height: 1; display: flex; flex-wrap: nowrap; }
 .masthead .title a { text-decoration: none; }
 .masthead .title a:hover { text-decoration: underline; }
+.masthead .title a[aria-current='page'] { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.2em; }
 .masthead .sep { color: var(--text-light); }
-.masthead nav.extra { margin-left: auto; font-family: var(--sans); font-weight: 600; font-size: 0.9rem; }
-.masthead nav.extra a { color: var(--text-light); text-decoration: none; }
 .tag-life { color: var(--life) !important; } .tag-design { color: var(--design) !important; }
 .tag-games { color: var(--games) !important; } .tag-code { color: var(--code) !important; }
 
@@ -93,3 +91,6 @@ mark { background: color-mix(in srgb, var(--design) 30%, transparent); color: in
 .post-header .date { font-family: var(--sans); font-weight: 600; font-size: 0.85rem; color: var(--text-light); }
 .post-header h1 { margin-bottom: 0.4rem; }
 .footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--accent); font-size: 0.85rem; color: var(--text-light); }
+
+.footer .search-link { font-family: var(--sans); font-weight: 600; color: var(--text-light); }
+.footer p { margin: 0.75rem 0 0; }

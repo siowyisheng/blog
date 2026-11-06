@@ -4,7 +4,7 @@ import fontsCss from '../styles/fonts.css?raw';
 import Masthead from '../components/Masthead.astro';
 import { SITE_TITLE, SITE_DESCRIPTION, AUTHOR } from '../consts';
 import { url } from '../lib';
-const { title, description = SITE_DESCRIPTION } = Astro.props as { title?: string; description?: string };
+const { title, description = SITE_DESCRIPTION, activeTag } = Astro.props as { title?: string; description?: string; activeTag?: string };
 const fullTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
 ---
 <!doctype html>
@@ -24,9 +24,12 @@ const fullTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
   </head>
   <body>
     <div class="wrapper">
-      <Masthead />
+      <Masthead activeTag={activeTag} />
       <main><slot /></main>
-      <footer class="footer">Written and maintained by <strong>{AUTHOR}</strong></footer>
+      <footer class="footer">
+        <a class="search-link" href={url('/search/')}>Search</a>
+        <p>Written and maintained by <strong>{AUTHOR}</strong></p>
+      </footer>
     </div>
   </body>
 </html>
