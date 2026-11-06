@@ -8,6 +8,8 @@ draft: false
 
 ![](/blog/images/WhatsApp%20Image%202026-11-07%20at%2007.00.46.jpeg)
 
-I lost a bunch of weight quickly, through water fasting 3 days per week, calorie counting (on eating days), bodyweight exercises and walking, formulating the plan with gemini.
+I lost a bunch of weight quickly, through water fasting 3 days per week, calorie counting (on eating days), bodyweight exercises and walking, formulating the plan with gemini. It was done with minimal muscle mass loss.
+
+I'm writing a book about the journey 😊
 
 Having some soup now with xiangling from [Genshin Impact](https://siowyisheng.github.io/blog/on-the-merits-and-problems-of-gacha-games/).
