@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+import fontsCss from '../styles/fonts.css?raw';
+import Masthead from '../components/Masthead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION, AUTHOR } from '../consts';
+import { url } from '../lib';
+const { title, description = SITE_DESCRIPTION } = Astro.props as { title?: string; description?: string };
+const fullTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={url('/favicon.ico')} />
+    <link rel="icon" type="image/png" sizes="32x32" href={url('/favicon-32x32.png')} />
+    <link rel="apple-touch-icon" href={url('/apple-touch-icon.png')} />
+    <link rel="manifest" href={url('/site.webmanifest')} />
+    <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={url('/rss.xml')} />
+    <style is:inline set:html={fontsCss}></style>
+    <link rel="preload" as="font" type="font/woff2" crossorigin href={url('/fonts/montserrat-latin-800-normal.woff2')} />
+  </head>
+  <body>
+    <div class="wrapper">
+      <Masthead />
+      <main><slot /></main>
+      <footer class="footer">Written and maintained by <strong>{AUTHOR}</strong></footer>
+    </div>
+  </body>
+</html>

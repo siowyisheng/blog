@@ -1,0 +1,15 @@
+---
+import { SITE_TITLE, CORE_TAGS } from '../consts';
+import { url } from '../lib';
+---
+<header class="masthead">
+  <a class="logo" href={url('/')} title="All posts"><img src={url('/logo.png')} alt={`${SITE_TITLE} — all posts`} /></a>
+  <div class="title">
+    {CORE_TAGS.map((t, i) => (
+      <>
+        <a class={`tag-${t}`} href={url(`/tags/${t}/`)}>{t[0].toUpperCase() + t.slice(1)}</a>{i < CORE_TAGS.length - 1 && <span class="sep">,</span>}
+      </>
+    ))}
+  </div>
+  <nav class="extra"><a href={url('/search/')}>Search</a></nav>
+</header>

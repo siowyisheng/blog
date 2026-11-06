@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { getPosts, tagSlug, url } from '../lib';
+const posts = await getPosts();
+const allTags = [...new Set(posts.flatMap((p) => p.data.tags))].sort();
+const pagefindUrl = url('/pagefind/pagefind.js');
+const base = url('');
+---
+<Base title="Search">
+  <input id="q" class="search-box" type="search" placeholder="Search posts…" autocomplete="off" aria-label="Search posts" />
+  <ul class="tags" id="chips" style="margin-top:1rem">
+    {allTags.map((t) => <li><button type="button" class="tag" aria-pressed="false" data-tag={t}>{t}</button></li>)}
+  </ul>
+  <div id="results" class="search-results" aria-live="polite"></div>
+
+  <script is:inline define:vars={{ pagefindUrl, base }}>
+    const q = document.getElementById('q');
+    const chips = [...document.querySelectorAll('#chips button')];
+    const out = document.getElementById('results');
+    let pf;
+    const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+    async function load() {
+      if (!pf) {
+        try { pf = await import(pagefindUrl); await pf.options({ baseUrl: base + '/' }); }
+        catch { out.textContent = 'Search index not available (run a production build).'; return null; }
+      }
+      return pf;
+    }
+    const selected = () => chips.filter((c) => c.getAttribute('aria-pressed') === 'true').map((c) => c.dataset.tag);
+
+    let seq = 0;
+    async function run() {
+      const mine = ++seq;
+      const tags = selected();
+      const term = q.value.trim();
+      history.replaceState(null, '', '?' + new URLSearchParams({ ...(term && { q: term }), ...(tags.length && { tags: tags.join(',') }) }));
+      if (!term && !tags.length) { out.innerHTML = ''; return; }
+      const p = await load(); if (!p) return;
+      const filters = tags.length ? { tag: { all: tags } } : undefined;
+      const res = await p.search(term || null, filters ? { filters } : {});
+      const data = await Promise.all(res.results.map((r) => r.data()));
+      if (mine !== seq) return;
+      out.innerHTML = data.length
+        ? data.map((d) => `<div class="result"><h3><a href="${d.url}">${esc(d.meta.title || d.url)}</a></h3><p>${d.excerpt}</p></div>`).join('')
+        : '<p>No matches.</p>';
+    }
+
+    const params = new URLSearchParams(location.search);
+    q.value = params.get('q') || '';
+    (params.get('tags') || '').split(',').filter(Boolean).forEach((t) => chips.find((c) => c.dataset.tag === t)?.setAttribute('aria-pressed', 'true'));
+    q.addEventListener('input', run);
+    chips.forEach((c) => c.addEventListener('click', () => { c.setAttribute('aria-pressed', c.getAttribute('aria-pressed') === 'true' ? 'false' : 'true'); run(); }));
+    run();
+  </script>
+</Base>

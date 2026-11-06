@@ -1,0 +1,15 @@
+---
+import { formatDate, url, type Post } from '../lib';
+const { posts } = Astro.props as { posts: Post[] };
+---
+<ol class="post-list">
+  {posts.map((p) => (
+    <li>
+      <span class="date">{formatDate(p.data.date)}</span>
+      <h3>
+        <a href={url(`/${p.id}/`)}>{p.data.title}</a>
+        {p.data.draft && <span class="draft-badge">draft</span>}
+      </h3>
+    </li>
+  ))}
+</ol>
