@@ -8,4 +8,6 @@ draft: false
 ---
 
 ![](https://miro.medium.com/1*fQNMdKCxdoG4cO-6fV7EeA.jpeg)
+
+
 i'm back! stack upgraded to astro, sveltia cms, pagefind search, built with claude code.
