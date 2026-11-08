@@ -28,7 +28,7 @@ const fullTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
       <main><slot /></main>
       <footer class="footer">
         <a class="search-link" href={url('/search/')}>Search</a>
-        <p>Written and maintained by <strong>{AUTHOR}</strong></p>
+        <p><a class="admin-link" href={url('/admin/')}>Written</a> and maintained by <strong>{AUTHOR}</strong></p>
       </footer>
     </div>
   </body>

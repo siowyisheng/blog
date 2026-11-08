@@ -94,3 +94,4 @@ mark { background: color-mix(in srgb, var(--design) 30%, transparent); color: in
 
 .footer .search-link { font-family: var(--sans); font-weight: 600; color: var(--text-light); }
 .footer p { margin: 0.75rem 0 0; }
+.footer .admin-link { color: inherit; text-decoration: none; }
