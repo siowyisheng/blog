@@ -1,5 +1,5 @@
 ---
-title: I lost 18kg (21% weight) in 100 days
+title: 🤩 I lost 18kg (21% weight) in 100 days
 date: 2026-11-06
 tags:
   - life
